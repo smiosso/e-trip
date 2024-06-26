@@ -1,0 +1,119 @@
+.city-container-father {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 155px;
+}
+
+/*  header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* end */
+
+/* first section cover */
+.title {
+    margin-bottom: 12px;
+}
+
+.city-description {
+    border-left: 1px solid var(--light-blue);
+    padding: 16px 0px 10px 16px;
+    margin: 16px 150px 16px 16px;
+}
+
+.img-cover img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 25px;
+}
+/* end */
+
+/* second section journal */
+.journal {
+    margin-top: 55px;
+}
+
+#h4 {
+    margin-bottom: 25px;
+}
+/* lists */
+ul {
+    margin-left: 25px;
+    line-height: 2rem;
+    list-style-type: square;
+}
+
+#list {
+    font-family: "Poppins", sans-serif;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+/* end */
+
+/* polaroid */
+#polaroid-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: min(20px);
+}
+
+.polaroid {
+    margin-top: 25px;
+}
+
+.img-polaroid {
+    padding: 15px 0px;
+    width: 250px;
+}
+/* end */
+
+.first-day,
+.second-day,
+.third-day,
+.fourth-day,
+.fifth-day {
+    margin-bottom: 85px;
+}
+/* end */
+
+
+/* special cote */
+.special-cote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.special-cote:hover {
+    animation: shablaw 0.6s;
+    animation-iteration-count: infinite;
+}
+
+#text-destak {
+    font-size: 18px;
+    color: var(--light-blue);
+    font-family: "Ultra", serif;
+    letter-spacing: 1px;
+}
+@keyframes shablaw {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+}
+/* end*/
